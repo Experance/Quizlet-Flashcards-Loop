@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Quizlet Infinite Audio Loop",
+    "version": "1",
+    "description": "Will automatically restart the flashcards and autoplay for you in quizlet.",
+    "permissions": ["activeTab", "scripting", "webNavigation", "tabs", "storage", "unlimitedStorage"],
+    "action": { 
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"  
+    }
+}
